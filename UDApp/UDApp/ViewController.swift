@@ -46,12 +46,12 @@ class ViewController: UIViewController
 
 	func updatePeersCount()
 	{
-		peersCountLabel.text = "\(node.peersCount) connected";
+		peersCountLabel?.text = "\(node.peersCount) connected";
 	}
 	
 	func updateFramesCount()
 	{
-		framesCountLabel.text = "\(node.framesCount) frames";
+		framesCountLabel?.text = "\(node.framesCount) frames";
 		
 	}
 
