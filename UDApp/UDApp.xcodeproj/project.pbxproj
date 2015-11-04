@@ -14,9 +14,9 @@
 		D5D071381BAEF02500AF0161 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5D071361BAEF02500AF0161 /* LaunchScreen.storyboard */; };
 		D5D071431BAEF02500AF0161 /* UDAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D071421BAEF02500AF0161 /* UDAppTests.swift */; };
 		D5D0714E1BAEF02500AF0161 /* UDAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D0714D1BAEF02500AF0161 /* UDAppUITests.swift */; };
-		D5D0715D1BAEF1B000AF0161 /* Underdark.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5D0715C1BAEF1B000AF0161 /* Underdark.framework */; settings = {ASSET_TAGS = (); }; };
+		D5D0715D1BAEF1B000AF0161 /* Underdark.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5D0715C1BAEF1B000AF0161 /* Underdark.framework */; };
 		D5D0715F1BAEF1E900AF0161 /* Underdark.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D5D0715C1BAEF1B000AF0161 /* Underdark.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		D5D071641BAEF2DE00AF0161 /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D071631BAEF2DE00AF0161 /* Node.swift */; settings = {ASSET_TAGS = (); }; };
+		D5D071641BAEF2DE00AF0161 /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D071631BAEF2DE00AF0161 /* Node.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -453,7 +453,7 @@
 				);
 				INFOPLIST_FILE = UDApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = io.underdark.UDApp;
+				PRODUCT_BUNDLE_IDENTIFIER = io.underdark.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};
@@ -471,7 +471,7 @@
 				);
 				INFOPLIST_FILE = UDApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = io.underdark.UDApp;
+				PRODUCT_BUNDLE_IDENTIFIER = io.underdark.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};
