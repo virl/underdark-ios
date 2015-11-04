@@ -8,7 +8,7 @@
         <!--View Controller-->
         <scene sceneID="woR-Az-RCe">
             <objects>
-                <viewController id="kXn-Ya-Sk2" customClass="ViewController" customModule="UDApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="kXn-Ya-Sk2" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="fl7-4b-gqk"/>
                         <viewControllerLayoutGuide type="bottom" id="ddu-bO-a3B"/>
@@ -29,7 +29,7 @@
                                 <animations/>
                                 <state key="normal" title="Send frames"/>
                                 <connections>
-                                    <action selector="sendFrames:" destination="kXn-Ya-Sk2" eventType="touchUpInside" id="r3v-ux-ehk"/>
+                                    <action selector="sendFrames:" destination="kXn-Ya-Sk2" eventType="touchUpInside" id="9RX-FB-tuu"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="0 connected" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="goC-Qa-2PP">
@@ -52,9 +52,9 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="framesCountLabel" destination="NYJ-sg-oJ6" id="L1G-nc-7jK"/>
-                        <outlet property="peersCountLabel" destination="goC-Qa-2PP" id="Bst-ry-CeJ"/>
-                        <outlet property="sendFramesButton" destination="wCy-1z-7qV" id="V0x-EJ-VUQ"/>
+                        <outlet property="framesCountLabel" destination="NYJ-sg-oJ6" id="dUb-yf-mfT"/>
+                        <outlet property="peersCountLabel" destination="goC-Qa-2PP" id="0vf-RR-5Hz"/>
+                        <outlet property="sendFramesButton" destination="wCy-1z-7qV" id="b00-0b-IgN"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XEP-q0-AGR" sceneMemberID="firstResponder"/>
