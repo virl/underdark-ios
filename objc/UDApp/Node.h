@@ -15,4 +15,11 @@
 @property (nonatomic, readonly) int64_t nodeId;
 @property (nonatomic, weak) ViewController* controller;
 
+@property (nonatomic, readonly) int32_t peersCount;
+@property (nonatomic, readonly) int32_t framesCount;
+
+- (void) start;
+- (void) stop;
+- (void) broadcastFrame:(NSData*)frameData;
+
 @end

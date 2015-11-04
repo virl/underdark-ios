@@ -10,6 +10,8 @@
 
 @interface ViewController : UIViewController
 
+- (void) updatePeersCount;
+- (void) updateFramesCount;
 
 @end
 
