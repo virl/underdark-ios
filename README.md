@@ -21,7 +21,7 @@ If you want to use it in your products, please contact the author.
 ## Installation
 To link with Underdark library, download recent version of Underdark.framework to your project directory (or into "Libraries" in examples):
 
-https://bintray.com/underdark/ios/underdark/
+  [ ![Download](https://api.bintray.com/packages/underdark/ios/underdark/images/download.svg) ](https://bintray.com/underdark/ios/underdark/_latestVersion) https://bintray.com/underdark/ios/underdark/
 
 Add Underdark.framework to “Embedded binaries” and “Linked Frameworks and Libraries” in your project target’s settings in Xcode.
 
