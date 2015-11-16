@@ -25,7 +25,7 @@ To link with Underdark library:
 
 1. Download recent version of Underdark.framework to your project directory (or into "Libraries" in examples): https://bintray.com/underdark/ios/underdark/
 2. Add Underdark.framework to “Embedded binaries” and “Linked Frameworks and Libraries” in your project target’s settings in Xcode.
-3. When using framework's classes, import them with ```@import Underdark```
+3. When using framework's classes, import them with ```@import Underdark;``` in Objective-C or ```import Underdark``` in Swift.
 
 ## Getting started
 Underdark API is very simple — it consists of entry class `UDUnderdark` with method `configureTransport*` — it allows you to create `UDTransport` instance with desired parameters (like network interface type) and specify UDTransportDelegate implementation for callbacks.
