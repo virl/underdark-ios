@@ -11,13 +11,6 @@ This repository contains sources for examples of using the library and also shor
 
 Video demo: http://www.youtube.com/watch?v=ox4dh0s1XTw
 
-## Author
-You can contact me via Telegram at http://telegram.me/virlof or by email at virlof@gmail.com
-
-## License
-This library may be used for non-commercial and educational purposes only.
-If you want to use it in your products, please contact the author.
-
 ## Installation
 [ ![Download](https://api.bintray.com/packages/underdark/ios/underdark/images/download.svg) ](https://bintray.com/underdark/ios/underdark/_latestVersion)
 
@@ -31,3 +24,10 @@ To link with Underdark library:
 Underdark API is very simple — it consists of entry class `UDUnderdark` with method `configureTransport*` — it allows you to create `UDTransport` instance with desired parameters (like network interface type) and specify UDTransportDelegate implementation for callbacks.
 
 Full documentation resides in appledoc of Underdark.framework, starting from `UDUnderdark` class.
+
+## Author
+You can contact me via Telegram at http://telegram.me/virlof or by email at virlof@gmail.com
+
+## License
+This library may be used for non-commercial and educational purposes only.
+If you want to use it in your products, please contact the author.
