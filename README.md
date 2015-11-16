@@ -19,7 +19,11 @@ This library may be used for non-commercial and educational purposes only.
 If you want to use it in your products, please contact the author.
 
 ## Installation
-To link with Underdark library, download Underdark.framework to your project directory and add it to “Embedded binaries” and “Linked Frameworks and Libraries” in your project target’s settings in Xcode.
+To link with Underdark library, download recent version of Underdark.framework to your project directory (or into "Libraries" in examples):
+
+https://bintray.com/underdark/ios/underdark/
+
+Add Underdark.framework to “Embedded binaries” and “Linked Frameworks and Libraries” in your project target’s settings in Xcode.
 
 ## Getting started
 Underdark API is very simple — it consists of entry class `UDUnderdark` with method `configureTransport*` — it allows you to create `UDTransport` instance with desired parameters (like network interface type) and specify UDTransportDelegate implementation for callbacks.
